@@ -21,7 +21,7 @@ The 32K addresses were then divided into 4 different subnets. This worked better
 
 One of the major notes was that each division of nodes was equal to a power of 2, and so each subdivision decided on had to include the number of nodes specified for each company. This sometimes resulted in a large waste of IP addresses as the powers of 2 are not nice rounded numbers.
 
-**Diagrams:** See the [Design Diagram.png](Sys-Administration-Lab-Reports/Lab 1 - Design Challenge/Design Diagram.png) and [Design Diagram.mp4](Sys-Administration-Lab-Reports/Lab 1 - Design Challenge/Design Diagram0001-1216.mp4) files for appropriate documentation.
+**Diagrams:** See the [Design Diagram.png](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%201%20-%20Design%20Challenge/Design%20Diagram.png) and [Design Diagram.mp4](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%201%20-%20Design%20Challenge/Design%20Diagram0001-1216.mp4) files for appropriate documentation.
 
 **Conclusion:** There really wasn't a "wrong way" to do this exercise (within reason of course), as there are multiple solutions that would work depending on circumstances. The solution we went with allowed for each of the four companies to expand and grow should the need ever arise. The ISP requested 5000 nodes, and was provided a full subnet containing 8192 IP addresses. The university was given 2048 IP addresses in a request of 1500, the department store 512 for 200, and the small company was given 128 in a request for 50.
 
