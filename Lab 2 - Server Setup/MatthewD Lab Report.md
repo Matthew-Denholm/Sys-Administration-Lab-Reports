@@ -25,28 +25,39 @@ After Installations were complete, the network connections were set to static IP
 After all Preparations were complete, remote connections were attempted from the Lab computers. This proved unsuccessful due to firewall complications and limitations. Later we setup/used separate Windows 10 Machines That did not have as many firewall limitations and managed to get server connections from there. Using Hyper-V management tools, a connection was set up on the Windows 10 machines.
 
 
-In attempts to connect from the lab computers, some settings were adjusted to try and remote connect. Using a Windows Powershell (Command Prompt), two commands were run. This would remove any barriers blocking connection from the computer to the server. This attempt didn't prove to be enough to break through the firewall, however. Another attempt via editing Local Group Policies didn't pan out either. This led to the use of a separate machine not under the same restrictions as the lab computers, which proved successful.
+In attempts to connect from the lab computers, some settings were adjusted to try and remote connect. Using a Windows Powershell (Command Prompt), two commands were run.
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%202%20-%20Server%20Setup/Capture.PNG)
+This would remove any barriers blocking connection from the computer to the server. This attempt didn't prove to be enough to break through the firewall, however. Another attempt via editing Local Group Policies didn't pan out either. This led to the use of a separate machine not under the same restrictions as the lab computers, which proved successful.
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%202%20-%20Server%20Setup/Capture4.PNG)
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%202%20-%20Server%20Setup/Capture5.PNG)
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%202%20-%20Server%20Setup/Capture5.5.PNG)
 
 Once all settings were established and connections made, the first virtual machine was created. Once ran, it was installed with Windows Server 2016, and set up with appropriate account information (Provided by the instructor). To remote desktop into this virtual machine, the IP address was needed. This was found via network settings. The settings were changed to static, as they didn't match up with the correct IP address assigned by the server, so no actual internet connection was available, and therefore remote desktoping wasn't available. After this change, the server was online and operable.
 
 **Questions:**
 1. IP address, subnet mask, gateway address, DNS, and Alt DNS of Server: 
-10.136.212.42/22
-255.255.252.0
-10.136.212.1
-10.133.253.130
-10.133.253.131
+   - 10.136.212.42/22
+   - 255.255.252.0
+   - 10.136.212.1
+   - 10.133.253.130
+   - 10.133.253.131
 2. Ethernet address to network interface
-10.136.212.42
+   - 10.136.212.42
 3. Network ID of lab Network:
-HYPER1
+   - HYPER1 (server)
+   - labs.salinak-state.edu
 4. Host ID of computer:
-Win10Pro1
+   - Win10Pro1
 5. Range of host IP addresses on subnet:
-Answers still being found...
+   - Answers still being found...
 6. Purpose of a default gateway:
+   - To provide your computer with a connection to the internet. This is usually located with the ISP.
+   - Can also be used to allow one host to talk with another host on a different subnet.
 7. Symptoms of invalid Default Gateway:
-
+   - Connection to the internet is not available.
+   - Ability to remote desktop keeps failing.
+   - Cannot log in on some subnets.
+   
 **References:**
 1. https://timothygruber.com/hyper-v-2/remotely-managing-hyper-v-server-in-a-workgroup-or-non-domain/
 2. https://www.petri.com/using-syspre-windows-10
