@@ -4,7 +4,7 @@
 
 ### 1/31/2019
 
-### Names: Matthew Denhom, Nic Crombie, Caroline Reed
+### Names: Matthew Denholm, Nic Crombie, Caroline Reed
 
 **Objective:** Our goal of this activity is to find a way to divide a block of IP addresses optimally. This will be accomplished by determining the requirements of each of the companies and then dividing the addresses into networks that will serve their needs. In the end, the result must have increased data performance (A smaller routing table size) than multiple class C Networks.
 
