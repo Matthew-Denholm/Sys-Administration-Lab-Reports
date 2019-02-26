@@ -49,7 +49,7 @@ Once all settings were established and connections made, the first virtual machi
 4. Host ID of computer:
    - Win10Pro1
 5. Range of host IP addresses on subnet:
-   - Answers still being found...
+   - 10.136.212.1 - 10.136.215.254
 6. Purpose of a default gateway:
    - To provide your computer with a connection to the internet. This is usually located with the ISP.
    - Can also be used to allow one host to talk with another host on a different subnet.
