@@ -27,17 +27,17 @@ After a restart, Active Directory was set up. (see images for set-up process).
 
 **Questions:**
 1. Why Change the Preferred DNS Server on the Client?
-- This step was taken to ensure that all new clients that are added to they server are connected through the server. This helps to ensure privacy, and maintain a stable connections speed.
+  - This step was taken to ensure that all new clients that are added to they server are connected through the server. This helps to ensure privacy, and maintain a stable connections speed.
 2. Why extra step was required to allow the client to log in with a domain user? Why was this requirement added by Microsoft?
-- The extra step was going through the control panel and adding the users separately. It adds an extra layer of security.
+  - The extra step was going through the control panel and adding the users separately. It adds an extra layer of security.
 3. Advantages of Active Directory over regular servers:
-- You can connect to multiple servers.
-- Doesn't store passwords (more secure).
+  - You can connect to multiple servers.
+  - Doesn't store passwords (more secure).
 4. List some reasons why companies use Virtual Servers.
-- Saves electricity (less hardware producing heat, saving climate conditioning costs).
-- Saves buying additional hardware
-- Easier to secure (physically).
-- Easier to clone (and update), which creates better uptime consistency should a server go down.
+  - Saves electricity (less hardware producing heat, saving climate conditioning costs).
+  - Saves buying additional hardware
+  - Easier to secure (physically).
+  - Easier to clone (and update), which creates better uptime consistency should a server go down.
 
 **References:**
 1. https://blog.netwrix.com/2017/04/20/tutorial-learn-the-basics-of-active-directory/
