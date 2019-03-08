@@ -17,13 +17,21 @@
 **Notes and Observations:**
 This lab begun in the same state where lab 2 ended. The first step of this lab was to prepare the system for cloning. This initial server will be used as a clean state to make copies from. Should something go down, there is a backup state from which clients can start from.
 
-Preparations were made through the sysprep command. After shutting down the VM, The server image was exported via the Hyper-V Manager Tools. For this lab, they were stored to (This location). A new virtual server was then imported via the copied VM image.
+Preparations were made through the sysprep command. After shutting down the VM, The server image was exported via the Hyper-V Manager Tools. For this lab, they were stored to ![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture.PNG). A new virtual server was then imported via the copied VM image.
 
-Once bootup procedures completed, The IP address and relative information were set to static. Like previous instances, this removes the possibility of other systems losing contact with the server. The server was also given a new computer name, which was provided by the instructor (This makes things easier later on in the lab).
+Once bootup procedures completed, The IP address and relative information were set to static. ![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture3.PNG) Like previous instances, this removes the possibility of other systems losing contact with the server. The server was also given a new computer name, which was provided by the instructor (This makes things easier later on in the lab). ![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture1.PNG)
 
 After a restart, Active Directory was set up. (see images for set-up process).
 
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture4.PNG)
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture5.PNG)
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture06.0.PNG)
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture06.1.PNG)
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture07.0.PNG)
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture07.1.PNG)
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/Capture07.2.PNG)
 
+After everything installed, Users were established. This Was done in a window like this ![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%203%20-%20Active%20Directory%20Domain/InkedCapture011_LI.jpg)
 
 **Questions:**
 1. Why Change the Preferred DNS Server on the Client?
