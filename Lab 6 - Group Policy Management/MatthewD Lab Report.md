@@ -26,9 +26,9 @@ By next class period, our group had not realized that the password was on a chan
 
 The next task was to intentionally cause a conflict with GPOs. Under one OU, Two wallpaper GPOs were applied. It was found that the policy on top is the one that is applied.
 
-It was also possible to block GPO Inheritance. (see question 8, as it relates to this section of the report) Applying a wallpaper for the whole domain overrides all the policies that affect a wallpaper in the OUs, hence inheritence. Blocking it prevents this. See picture for how it was done. [pic](pic) 
+It was also possible to block GPO Inheritance. (see question 8, as it relates to this section of the report) Applying a wallpaper for the whole domain overrides all the policies that affect a wallpaper in the OUs, hence inheritence. Blocking it prevents this. See picture for how it was done. ![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%206%20-%20Group%20Policy%20Management/Capture.PNG) 
 
-The next task was to Enforce a policy. Wherever the policy is placed, enforcing it ensures that it will place its order of application first. If it is above a blocked inheritence OU, it should still be applied, or at the very least show up in the client group policies. [pic](pic)
+The next task was to Enforce a policy. Wherever the policy is placed, enforcing it ensures that it will place its order of application first. If it is above a blocked inheritence OU, it should still be applied, or at the very least show up in the client group policies. ![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%206%20-%20Group%20Policy%20Management/Capture1.PNG)
 
 The Final major task done in this lab was GPO Filtering. A wallpaper policy was applied on the domain level. A filter was then set up to apply that filter to a specific group of users on the network (Ours was TestGroup). One client was then filtered out of that wallpaper policy. The result was that user not having a custom background. Timed policies were also tested. In this lab, we just tested changing the day they are applied.
 
