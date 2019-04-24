@@ -44,6 +44,7 @@ Finally, a new GPO was created for printer connections. In the GPO's editor, a n
   - Idle Timeouts
   - Network Drives
   - Application Access (only certain visible applications)
+  
 **References:**
 - https://www.safaribooksonline.com/library/view/mastering-windows-group/9781789347395/?orpq
 
