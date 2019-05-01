@@ -22,7 +22,7 @@ The experience was very similar to setting up/installing tools on a windows 2016
 
 After all of the settings were inputted and set, the virtual machine, along with several other necessary resources for functionality (storage accounts, network interfaces, and recovery services), was created. Many of the other steps in the tutorial (In this case steps 2-14) were already accomplished in the process of creating the virtual machine via the form. The goal of this lab was to set up a web server, and linux had 3 options. I went with Apache in this lab, and so step 15a was the one I followed.
 
-At this point, we needed access to the machine itself. Because I didn't specify any ports to allow in the creation of the virtual machine, I had to open one. This was accessed by going to the *Dashboard -> VM -> Networking Settings -> Add inbound port rule*. For this lab, Port 80 was opened. []()
+At this point, we needed access to the machine itself. Because I didn't specify any ports to allow in the creation of the virtual machine, I had to open one. This was accessed by going to the *Dashboard -> VM -> Networking Settings -> Add inbound port rule*. For this lab, Port 80 was opened. ![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Lab%208%20-%20Cloud-based%20web%20server/Port%20Rules.PNG)
 
 There wasn't much getting around the command line at this point. It could've been accessed via the azure command line (bash), but I had a different tool available called PuTTY. PuTTY is a remote desktop software without the fancy live GUI (Like windows remote desktop connection). Once signed in, I copied the following command from the tutorial:
 
