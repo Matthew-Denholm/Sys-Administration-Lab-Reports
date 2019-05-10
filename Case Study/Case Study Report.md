@@ -47,7 +47,7 @@
 
 2.	Describe your Active Directory structure including OUs, users and groups.  Include any assumptions you made about the company that affected your design.  (You could use something like Visio to display the structure.)
 
-![pic]()
+![pic](https://github.com/Matthew-Denholm/Sys-Administration-Lab-Reports/blob/master/Case%20Study/AD%20Tree1.png)
 
   - We assumed that the current location will not expand.
   - Other locations may be added in the future.
