@@ -1,0 +1,29 @@
+What is the structure of the organization?
+-  How are groups structured?
+
+What are the resources they use?
+-  What applications/data are they using/tracking?
+-  File Sharing
+-  User Locations
+-  Printers?
+
+What is their business model/process?
+-  What data is the most important to them?
+-  What data must be backed up?
+-  What data must have High Uptimes?
+
+What kind of policies do they require?
+-  How secure do they want their employee accounts?
+	Where are they logging in from?
+	Local/Remote work?
+	VPN?
+
+What is the technical level of the users?
+-  User accessability/language?
+-  User Experience and control surveilence/oversight
+
+What are the naming conventions I.S. uses? (Topology)
+
+How well is the company growing? Do you plan on expansions anytime soon?
+
+
